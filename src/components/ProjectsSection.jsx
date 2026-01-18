@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Predictive Maintenance",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Developed a predictive maintenance model using machine learning on sensor data to predict failures and schedule maintenance proactively.",
     image: "/projects/machine.png",
     tags: ["Machine Learning","python"],
     demoUrl: "https://github.com/usha0401/ML_project_hub",
