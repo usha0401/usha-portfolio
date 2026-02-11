@@ -1,52 +1,80 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import ecomImg from "@/assets/projects/ecom.png";
+import machineImg from "@/assets/projects/machine.png";
+import travelImg from "@/assets/projects/travel.png";
+import iotImg from "@/assets/projects/iot-dashboard.png";
+import hlsImg from "@/assets/projects/hls.png";
+import Story from "@/assets/projects/story.png"
+import User from "@/assets/projects/user.png"
+
 
 const projects = [
   {
     id: 1,
+    title: "Full-Stack UserQL",
+    description:
+      "A full-stack application built with React (Vite) and Apollo GraphQL, enabling real-time user creation and data retrieval. It showcases end-to-end GraphQL integration and deployment of both frontend and backend using Render.",
+    image: User,
+    tags: ["React", "Javascript", "Apollo Client","CSS"],
+    demoUrl: "https://graphql-frontend-l850.onrender.com/",
+    githubUrl: "https://github.com/usha0401/FullStack_GraphQL",
+  },
+  {
+    id: 2,
+    title: "Interactive Story Generator",
+    description:
+      "Interactive Story Generator is a full-stack application that generates and suggests story paths in real time using OpenAI and LangChain.",
+    image: Story,
+    tags: ["FastAPI","LangChain","OpenAI API","SQLAlchemy,Pydantic","Uvicorn","React"],
+    demoUrl: "https://fastapi-pro-rq1d.onrender.com/",
+    githubUrl: "https://github.com/usha0401/fastapi_pro?tab=readme-ov-file",
+  },
+  {
+    id: 3,
     title: "E-commerce Platform",
-    description: "innovative e-commerce website designed for a seamless shopping experience. Discover a curated selection of products, effortlessly browse through categories, and enjoy a smooth checkout process.",
-    image: "/projects/ecom.png",
-    tags: ["React", "TailwindCSS", "Javascript","HTML"],
+    description:
+      "innovative e-commerce website designed for a seamless shopping experience. Discover a curated selection of products, effortlessly browse through categories, and enjoy a smooth checkout process.",
+    image: ecomImg,
+    tags: ["React", "TailwindCSS", "Javascript", "HTML"],
     demoUrl: "https://github.com/usha0401/E-com",
     githubUrl: "https://github.com/usha0401/E-com",
   },
   {
-    id: 2,
+    id: 4,
     title: "Predictive Maintenance",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/machine.png",
-    tags: ["Machine Learning","python"],
+      "Developed a predictive maintenance model using machine learning on sensor data to predict failures and schedule maintenance proactively.",
+    image: machineImg,
+    tags: ["Machine Learning", "python"],
     demoUrl: "https://github.com/usha0401/ML_project_hub",
     githubUrl: "https://github.com/usha0401/ML_project_hub",
   },
-  
   {
-    id: 3,
+    id: 5,
     title: "Tourist",
     description:
       "Its a user-friendly and responsive tour booking website using cutting-edge technologies such as React, JavaScript, and Node.js.",
-    image: "/projects/travel.png",
-    tags: ["React", "Node.js", "HTML","MongoDB"],
+    image: travelImg,
+    tags: ["React", "Node.js", "HTML", "MongoDB"],
     demoUrl: "https://github.com/usha0401/Tourist",
     githubUrl: "https://github.com/usha0401/Tourist",
   },
   {
-    id: 4,
+    id: 6,
     title: "Handloom Stores – Digitizing a Traditional Family Handloom Business",
     description:
       "Handloom Stores is a web application showcasing a curated range of traditional handloom textiles and branded fashion products with intuitive navigation and rich product displays.",
-    image: "/projects/hls.png",
-    tags: ["React", "Node.js", "HTML","CSS"],
+    image: hlsImg,
+    tags: ["React", "Node.js", "HTML", "CSS"],
     demoUrl: "https://handloomstores.onrender.com/",
     githubUrl: "https://github.com/usha0401/HandloomStores/tree/main",
   },
   {
-    id: 5,
+    id: 7,
     title: "IoT Data Visualization Dashboard",
     description:
-      "This project is a React.js-based frontend application that dynamically displays IoT sensor data (temperature,humidity and pressure) from a JSON file.",
-    image: "/projects/IoT Dashboard.png",
+      "This project is a React.js-based frontend application that dynamically displays IoT sensor data (temperature, humidity and pressure) from a JSON file.",
+    image: iotImg,
     tags: ["React", "Axios", "CSS"],
     demoUrl: "https://usha0401.github.io/iot-dashboard/",
     githubUrl: "https://github.com/usha0401/iot-dashboard?tab=readme-ov-file",
